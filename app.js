@@ -3,6 +3,7 @@ const placement = document.getElementById("placement");
 const which = document.getElementById("which");
 const code = document.getElementById("code");
 const header = document.getElementById("header");
+const pageOpen = document.getElementById("pageOpen");
 
 document.addEventListener("keydown", (event) => {
     key.textContent = `${event.key}`;
