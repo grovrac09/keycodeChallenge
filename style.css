@@ -8,7 +8,6 @@ body {
     align-items: center;
     flex-direction: column;
     background: linear-gradient(90deg, rgba(168,11,130,1) 0%, rgba(89,198,203,1) 100%);
-
 }
 
 button {
@@ -33,6 +32,10 @@ button:hover {
     flex-direction: column;
 }
 
+#pageOpen {
+    font-size: 150px;
+}
+
 #header {
     font-size: 200px;
     transition: 1s;
@@ -43,7 +46,7 @@ button:hover {
     transition: 1s;
 }
 
-.grid {
+.container {
     display: flex;
 }
 

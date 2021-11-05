@@ -6,6 +6,7 @@ const header = document.getElementById("header");
 const pageOpen = document.getElementById("pageOpen");
 
 document.addEventListener("keydown", (event) => {
+    pageOpen.style.display = "none";
     key.textContent = `${event.key}`;
     placement.textContent = `${event.location}`;
     which.textContent = `${event.which}`;
